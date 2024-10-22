@@ -61,6 +61,6 @@ async function processDirectoryContents(directoryPath) {
   }
 }
 
-processDirectoryContents("../LearningNodeJS");
+processDirectoryContents("./docs");
 
 console.log();
