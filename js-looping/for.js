@@ -37,3 +37,15 @@ console.log("\nResults:");
 console.log(`Sum of all numbers: ${sum}`);
 console.log(`Largest number: ${largestNumber}`);
 console.log(`Target number ${targetNumber} found: ${targetFound}`);
+
+/* Output:
+Number at index 0: 10
+Number at index 1: 25
+Number at index 2: 35
+Target number 42 found at index 3. Stopping the loop.
+
+Results:
+Sum of all numbers: 112
+Largest number: 42
+Target number 42 found: true
+*/

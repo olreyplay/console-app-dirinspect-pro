@@ -36,3 +36,24 @@ for (let user in users) {
 
   console.log("---");
 }
+
+/* Output:
+Details for user1:
+name: Peter
+age: 29
+location: Tokio
+hobbies: coding, running
+---
+Details for user2:
+name: Anna
+age: 32
+location: London
+hobbies: reading, traveling
+---
+Details for user3:
+name: Tom
+age: 27
+location: New York
+hobbies: photography, gaming
+---
+*/

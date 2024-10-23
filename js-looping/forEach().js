@@ -64,3 +64,25 @@ company.departments.forEach((department) => {
 
   console.log("---");
 });
+
+/* Output:
+Department: Engineering
+  Employee: Alice, Salary: $70000
+  Employee: Bob, Salary: $90000
+  Employee: Charlie, Salary: $120000
+  Total Salary for Engineering: $280000
+  Employees earning more than $60000: Alice, Bob, Charlie
+---
+Department: Marketing
+  Employee: Dave, Salary: $50000
+  Employee: Eve, Salary: $60000
+  Total Salary for Marketing: $110000
+  No employees earn more than $60000
+---
+Department: Sales
+  Employee: Frank, Salary: $45000
+  Employee: Grace, Salary: $70000
+  Total Salary for Sales: $115000
+  Employees earning more than $60000: Grace
+---
+*/

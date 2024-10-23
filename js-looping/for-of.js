@@ -44,3 +44,21 @@ for (const student of students) {
     console.log(`    Grade: ${grade}`);
   }
 }
+
+/* Output:
+Student: Peter
+  Enrolled in: Math
+    Grade: A
+  Enrolled in: Physics
+    Grade: B
+Student: Anna
+  Enrolled in: Biology
+    Grade: A+
+  Enrolled in: Chemistry
+    Grade: A-
+Student: Tom
+  Enrolled in: Literature
+    Grade: B+
+  Enrolled in: Math
+    Grade: A
+*/
